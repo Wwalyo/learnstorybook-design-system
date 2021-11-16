@@ -14,6 +14,14 @@ Standard.args = {
   src: "https://avatars2.githubusercontent.com/u/132554",
 };
 
+export const Controls = Standard.bind({});
+Controls.args = {
+  loading: false,
+  size: 'tiny',
+  username: 'Dominic Nguyen',
+  src: 'https://avatars2.githubusercontent.com/u/263385',
+};
+
 export const Sizes = (args) => (
   <div>
     <Avatar {...args} size="large" />
